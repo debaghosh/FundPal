@@ -1,0 +1,116 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>Hello, world!</title>
+  </head>
+
+
+   <!--Home Page-->
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FundPal.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Fund Projects</a>
+            <a class="nav-link" href="#">Start a Project</a>
+            <button type="button" class="btn btn-warning">Login</button>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--JUMBOTRON-->
+      <div class="jumbotron ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <h1 class="display-5">Help your Pals Out!</h1>
+                <p class="lead">Fund interesting projects with high potential and become part of a revolution.</p>
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-success">Fund Others</button>
+                    <button type="button" class="btn btn-primary">Get Funding</button>                  
+                </div>                  
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img class="img-fluid" src="{% static 'img/home/undraw_project_team_lc5a.svg' %}">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <!--Count section-->
+      <section class="count">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card col-md-3 m-md-2 col-xs-12 m-xs-1 count1" style="width: 18rem;">
+                    <div class="card-body ">
+                      <h2 class="card-title">Projects Funded</h2>
+                      <h3 class="card-text">123</h3>
+                    </div>
+                  </div>
+                  <div class="card col-md-3 m-md-2 col-xs-12 m-xs-1 count2" style="width: 18rem;">
+                    <div class="card-body ">
+                      <h2 class="card-title">Our Community</h2>
+                      <h3 class="card-text">234</h3>
+                    </div>
+                  </div>
+                  <div class="card col-md-3 m-md-2 col-xs-12 m-xs-1 count3" style="width: 18rem;">
+                    <div class="card-body ">
+                      <h2 class="card-title">Money funded</h2>
+                      <h3 class="card-text">Rs. 345222</h3>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </section>
+
+
+
+      <!--Project Display Section-->
+      <section class="display-section">
+
+      </section>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

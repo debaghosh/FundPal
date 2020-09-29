@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');/*style for navbar brand*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap'); /*style for all other text*/
+
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    padding: 3px;
+    margin-right: 15px;
+}
+
+.navbar-nav{
+    margin-left:auto;
+    font-size: 1.3em;
+}
+
+.nav-links{
+    padding-right:30px;
+}
+
+
+
+
+/* Jumbotron */
+.jumbotron{
+    background-color: #343a40;
+    color: white;
+}
+
+.jumbotron img{
+    margin-top: 30px;
+}
+
+
+/*Count Cards */
+.count1{
+    background-color: #F08080;
+    text-align: center;
+}
+.count2{
+    background-color: #4760E9;	
+    text-align: center;
+}
+.count3{
+    background-color: #F08080;
+    text-align: center;
+}
+
+
+/*Display section*/
+.display-section{
+    background-color: #d3d3d3;
+}
+
+
+footer{
+    background-color:  #343a40;
+    text-align: center;
+}
