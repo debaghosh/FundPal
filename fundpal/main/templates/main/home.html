@@ -27,7 +27,12 @@
             <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#">Fund Projects</a>
             <a class="nav-link" href="#">Start a Project</a>
-            <button type="button" class="btn btn-warning">Login</button>
+            {% if user.is_authenticated %}
+            <span style="color: white; padding: 0 10px 0 10px;"> Welcome, {{request.user.username}} </span>
+            <a href="{% url 'logout' %}"><button type="button" class="btn btn-warning">Logout</button></a>
+            {% else %}
+            <a href="{% url 'login' %}"><button type="button" class="btn btn-warning">Login</button></a>
+            {% endif %}
           </div>
         </div>
       </nav>
