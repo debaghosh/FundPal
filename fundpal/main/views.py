@@ -28,7 +28,7 @@ def loginPage(request):
         cap_token = request.POST.get('g-recaptcha-response')
         
         cap_url = "https://www.google.com/recaptcha/api/siteverify"
-        cap_secret = "6LdhKdIZAAAAAAiJ42ywngqbCAacEqtgmI-e_IPc"
+        cap_secret = "cap-secret-key"
         cap_dict = {'secret': cap_secret,'response':cap_token}
         cap_server_response = requests.post(url=cap_url, data=cap_dict)
         cap_json = json.loads(cap_server_response.text)
