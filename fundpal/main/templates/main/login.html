@@ -17,9 +17,13 @@
         <label>Password</label>
         <input type="password" name="password">
         <br><br>
+        <div class="g-recaptcha" data-sitekey="6LdhKdIZAAAAAJS2WfgTum5x0IwZZNg6xN7pydgP"></div>
+        <br><br>
         <input type = "submit" name="Login">
         <br><br>
         <small>Don't have an account? <a href="{% url 'register' %}">Register</a></small>
     </form>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </body>
 </html>
