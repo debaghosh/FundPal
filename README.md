@@ -6,3 +6,7 @@ The technologies used:
 - HTML
 - Css
 - Bootstrap Css Framework
+
+Functionalities:
+- User Authentication
+- Captcha 
